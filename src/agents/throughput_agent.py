@@ -1,3 +1,4 @@
+"""${agent^} Agent"""
 from .base_agent import DetectionAgent, AgentType
 
 class ${agent^}Agent(DetectionAgent):
