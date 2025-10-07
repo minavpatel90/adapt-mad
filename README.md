@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # adapt-mad
 Official implementation of "Adaptive Multi-Agent Collaboration for Performance Anomaly Detection: An Industrial Case Study"
 =======
@@ -47,4 +46,3 @@ Compared to static multi-agent baselines:
 ## License
 
 MIT License - see [LICENSE](LICENSE) file.
->>>>>>> bfb5f9e (Initial commit: ADAPT-MAD framework)
