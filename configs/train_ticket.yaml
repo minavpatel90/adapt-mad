@@ -1,0 +1,8 @@
+dataset:
+  name: "train_ticket"
+  num_services: 41
+  features_per_service: 187
+
+agents:
+  - type: "slo_compliance"
+    enabled: true

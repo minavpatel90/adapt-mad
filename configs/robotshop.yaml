@@ -1,0 +1,4 @@
+dataset:
+  name: "robotshop"
+  num_services: 8
+  features_per_service: 40

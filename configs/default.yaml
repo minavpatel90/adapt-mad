@@ -1,0 +1,36 @@
+experiment:
+  name: "adapt_mad_experiment"
+  seed: 42
+  output_dir: "results/"
+
+dataset:
+  name: "train_ticket"
+  window_size: 50
+  train_split: 0.70
+  val_split: 0.15
+  test_split: 0.15
+
+model:
+  hidden_dim: 64
+  num_layers: 2
+  dropout: 0.2
+  learning_rate: 0.001
+  batch_size: 32
+  epochs: 50
+
+coordination:
+  threshold_high_load: 4000
+  threshold_low_load: 1000
+  threshold_fpr: 0.15
+  threshold_fnr: 0.10
+  hysteresis: 2
+
+agents:
+  - type: "latency"
+    enabled: true
+  - type: "throughput"
+    enabled: true
+  - type: "resource"
+    enabled: true
+  - type: "error_rate"
+    enabled: true

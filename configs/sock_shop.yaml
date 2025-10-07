@@ -1,0 +1,4 @@
+dataset:
+  name: "sock_shop"
+  num_services: 6
+  features_per_service: 78
